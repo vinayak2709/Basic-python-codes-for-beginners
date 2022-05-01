@@ -20,10 +20,10 @@ not_output=not bool_val2
 
 """comparison  < ,> ,<= , >= ,== """
 
-val1=10
-val2=20
+val1=130
+val2=10
 
-final_out=val1>val2 or val1==val2
+final_out=val1 > val2 or val1==val2
 
 val1>=val2
 

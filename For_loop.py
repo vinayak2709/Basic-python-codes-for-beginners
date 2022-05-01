@@ -9,8 +9,8 @@ Created on Sun Nov 21 18:09:39 2021
 
 # For loops
 
-for count in range(4,9):
-    print('The count is:', count)
+for count in range(0,9):
+    print('The count is:', count+1)
     # print("value : ", count, "sqaure value : ", count*count)
     print("******")
     
@@ -32,7 +32,7 @@ list3=["Vinayak","Mahesh","arvind","Aparna","Anirudh"]
 
 
 for name in list3:
-    print('The name is:', name)
+    print(name,' The name is:', name)
     # print("value : ", count, "sqaure value : ", count*count)
     print("******")
     
@@ -41,9 +41,20 @@ for name in list3:
 
 
 for index in range(0,len(list3)):
-    print('The name is:', list3[index])
+    print(index,' The name is:', list3[index])
     # print("value : ", count, "sqaure value : ", count*count)
     print("******")
+    
+    
+    
+    
+index=0
+
+while(index <len(list3)):
+    print(index,' The name is:', list3[index])
+
+    index=index+1
+
     
     
 

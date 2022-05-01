@@ -19,10 +19,14 @@ print("l2",sample_list_2)
 print("l3",sample_list_3)
 
 
+
+sample_list_2[-1]
+
+
 sample_list.append(100)
 
 
-sample_list[-4]
+sample_list[4]
 
 # list_name.insert(index,value)
 sample_list.insert(4,2000)
@@ -43,6 +47,12 @@ input3_0="sadf_"
 output_addition=sample_list_9+sample_list
 print(output_addition)
 
+
+sample_list.index(2000)
+
+
+
+
 summation=sum(output_addition)
 
 
@@ -52,3 +62,17 @@ length_of_list3=len(list3)
 
 
 
+range_list=list(range(0,100))
+
+for i in range(0,len(sample_list)):
+    print("index : ", i)
+    print("value : ",sample_list[i])
+    
+
+
+sample_list.reverse() # reverse lsit itself
+
+sample_list[::-1]   # outputs revserse
+
+
+sample_list.sort() # sort list itself

@@ -11,12 +11,13 @@ Created on Sun Nov 21 19:54:14 2021
 Calculator with operator input and number input -loop operation
 """
 
-input_1 =int(input("please enter 1st number : "))
-
-input_2 =int(input("please enter 2Nd number : "))
-
-while(True):   
+while(True): 
     
+    input_1 =int(input("please enter 1st number : "))
+    
+    input_2 =int(input("please enter 2Nd number : "))
+    
+        
     operation_input =input("""please enter operation ,for addition enter a , 
                            for sub enter s , 
                            for multiplication enter m , 

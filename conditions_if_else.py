@@ -16,9 +16,9 @@ else:
 
 # even / odd
 
-inte_variable=34596
+inte_variable=96
 
-inte_var=23965
+inte_var=25
 
 if inte_var%2==0:
     print("Even")
@@ -57,7 +57,7 @@ if var%2==0:
 elif var%2==1:
     print("odd")
 else:
-    print("wrong_integer")
+    print("not_integer")
     
   
 
