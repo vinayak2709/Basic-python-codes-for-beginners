@@ -12,7 +12,7 @@ Calculator with operator input and number input -loop operation
 
 
 import argparse
-
+import os
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
 
@@ -27,7 +27,8 @@ args = vars(ap.parse_args())
 print(args)
 
 count=1
-password="vinayak"
+password=os.environ.get("USERNAME")
+
 if args.get("password"):
     while(count <4):
         if args.get("password") != password :
