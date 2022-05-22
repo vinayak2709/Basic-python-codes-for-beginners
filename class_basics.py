@@ -80,7 +80,6 @@ obj_2.name
 
 
 Student.function_0()
-Student.function_0.static_var
 
 
 

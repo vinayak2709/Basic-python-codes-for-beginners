@@ -12,6 +12,6 @@ d = {'one' : pd.Series([1, 2, 3], index=['a', 'b', 'c']),
 df = pd.DataFrame(d)
 print(df.loc['b']) # index lable
 print(df.iloc[1]) # index
-print(df[1:4])   # index
+print(df[1:3])   # index
 
 print(df["one"])

@@ -15,7 +15,10 @@ df = pd.DataFrame(d)
 # Adding a new column to an existing DataFrame object with column label by passing new series
 
 print("Adding a new column by passing as Series:")
-df['three']=pd.Series([10,20,30],index=['a','b','c'])
+df['three']=pd.Series([10,20,30,5],index=['a','b','c','d'])
+
+
+df['three']=[1235,346,7,7]
 print(df)
 
 print("Adding a new column using the existing columns in DataFrame:")

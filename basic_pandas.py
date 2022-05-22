@@ -38,7 +38,7 @@ df = pd.DataFrame(dictionary)
 
 print(df.replace({1000:10,2000:60}))
 
-
+df =df.replace({1000:10,2000:60})
 
 
 
@@ -51,8 +51,11 @@ ipl_data = {'Team': ['Riders', 'Riders', 'Devils', 'Devils', 'Kings',
    'kings', 'Kings', 'Kings', 'Riders', 'Royals', 'Royals', 'Riders'],
    'Rank': [1, 2, 2, 3, 3,4 ,1 ,1,2 , 4,1,2],
    'Year': [2014,2015,2014,2015,2014,2015,2016,2017,2016,2014,2015,2017],
-   'Points':[876,789,863,673,741,812,756,788,694,701,804,690]}
+   'Points':[876,789,863,673,741,812,756,788,694,701,804,690],
+   'basic_game_rating':[5,3,5,3,1,3,5,4,2,1,5,2]}
 df = pd.DataFrame(ipl_data)
 
 print(df)
 
+
+df["good_will_rating"]=((df["Points"]/1000))+df['basic_game_rating']
